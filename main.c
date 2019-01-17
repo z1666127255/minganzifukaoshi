@@ -44,7 +44,15 @@ int main()
         }
         if (code == 3)
         {
-
+            printf("suoyouminganzifu\n");
+            for(int i = 0;i<index;i++)
+            {
+                printf("di%dminganzifuwei:%c\n");
+            }
+            printf("dianjixuchejixu\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
         }
         if (code == 4)
         {
