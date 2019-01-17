@@ -5,6 +5,7 @@ char arr[1024];
 int main()
 {
 
+    while(1){
     printf("minganzifuguanlixitong\n");
 
     printf("1----tianjia\n");
@@ -34,7 +35,12 @@ int main()
         }
         if (code == 2)
         {
-
+            printf("shanchuminganzifu\n");
+            index--;
+            printf("shanchuchehnggong\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
         }
         if (code == 3)
         {
@@ -48,6 +54,7 @@ int main()
         {
 
         }
+    }
 
     return 0;
 }
